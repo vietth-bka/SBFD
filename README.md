@@ -7,8 +7,8 @@ This project (based on [CrowdDet](https://github.com/Purkialo/CrowdDet)) is the 
 
 Our motivation is to detect the body and face of pedestrians in a joint manner, which is important in many industrial applications. The core ideas of our approach is mainly in two fold: 1). From appearance level, learning associative embeddings. 2). From geometry level, using adjuct head center as hooks ("head hook"). We utilize information from these two sources to match bodies and faces online inside the detector.
 
-![introfig](./demo/intro.png)
-![introfig1](./demo/intro1.png)
+![introfig](./lib/data/gt.png)
+<!-- ![introfig1](./demo/intro1.png) -->
 
 ## Updates
 
