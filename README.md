@@ -1,7 +1,9 @@
-Body-Face Joint Detection via Embedding and Head Hook
+Semantic Body-Face Detection via Prototype Learning
+<!-- Body-Face Joint Detection via Embedding and Head Hook -->
 ===
 
-This project (based on [CrowdDet](https://github.com/Purkialo/CrowdDet)) is the re-implementation of our paper "[*Body-Face Joint Detection via Embedding and Head Hook*](https://openaccess.thecvf.com/content/ICCV2021/papers/Wan_Body-Face_Joint_Detection_via_Embedding_and_Head_Hook_ICCV_2021_paper.pdf)" published in ICCV2021.
+This project (based the [re-implementation](https://github.com/AibeeDetect/BFJDet.git) of the paper "[*Body-Face Joint Detection via Embedding and Head Hook*](https://openaccess.thecvf.com/content/ICCV2021/papers/Wan_Body-Face_Joint_Detection_via_Embedding_and_Head_Hook_ICCV_2021_paper.pdf)" published in ICCV2021). We use the facial landmarks as hooks instead of center heads in order to enrich the semantic bridges between bodies and faces for surveilance in the wild. 
+
 
 ## Introduction
 
@@ -93,4 +95,4 @@ All models are based on ResNet-50 FPN.
 # Contact
 
 If you have any questions, feel free to contact Jiangfan Deng (jfdeng@aibee.com).
-# BFLD
+# SBFD
